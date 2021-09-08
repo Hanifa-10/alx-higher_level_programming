@@ -1,0 +1,31 @@
+------------------------------------------------------------
+/usr/bin/pip3 run on Wed Sep  8 14:25:07 2021
+Downloading/unpacking pep==1.7.0
+  Getting page https://pypi.python.org/simple/pep/
+  Could not fetch URL https://pypi.python.org/simple/pep/: 404 Client Error: Not Found
+  Will skip URL https://pypi.python.org/simple/pep/ when looking for download links for pep==1.7.0
+  Getting page https://pypi.python.org/simple/
+  URLs to search for versions for pep==1.7.0:
+  * https://pypi.python.org/simple/pep/1.7.0
+  * https://pypi.python.org/simple/pep/
+  Getting page https://pypi.python.org/simple/pep/1.7.0
+  Could not fetch URL https://pypi.python.org/simple/pep/1.7.0: 404 Client Error: Not Found
+  Will skip URL https://pypi.python.org/simple/pep/1.7.0 when looking for download links for pep==1.7.0
+  Getting page https://pypi.python.org/simple/pep/
+  Could not fetch URL https://pypi.python.org/simple/pep/: 404 Client Error: Not Found
+  Will skip URL https://pypi.python.org/simple/pep/ when looking for download links for pep==1.7.0
+  Could not find any downloads that satisfy the requirement pep==1.7.0
+Cleaning up...
+  Removing temporary dir /tmp/pip_build_root...
+No distributions at all found for pep==1.7.0
+Exception information:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/pip/basecommand.py", line 122, in main
+    status = self.run(options, args)
+  File "/usr/lib/python3/dist-packages/pip/commands/install.py", line 278, in run
+    requirement_set.prepare_files(finder, force_root_egg_info=self.bundle, bundle=self.bundle)
+  File "/usr/lib/python3/dist-packages/pip/req.py", line 1178, in prepare_files
+    url = finder.find_requirement(req_to_install, upgrade=self.upgrade)
+  File "/usr/lib/python3/dist-packages/pip/index.py", line 277, in find_requirement
+    raise DistributionNotFound('No distributions at all found for %s' % req)
+pip.exceptions.DistributionNotFound: No distributions at all found for pep==1.7.0
