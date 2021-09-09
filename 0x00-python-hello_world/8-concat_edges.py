@@ -1,4 +1,5 @@
 #!/usr/bin/python3
 atr = "Python is an interpreted, interactive, object-oriented programmig language that combines remarkable power with very clear syntax"
-str = str[39:66] + str[106:112] + str[:6]
+str = str[39:66] + str[-23:-17] + str[:6]
 print(str)
+
