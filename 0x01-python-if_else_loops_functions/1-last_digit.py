@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 import random
-number = random(-10000, 10000)
+number = random.randit(-10000, 10000)
 if number < 0:
     lastd = number % -10
 else:
