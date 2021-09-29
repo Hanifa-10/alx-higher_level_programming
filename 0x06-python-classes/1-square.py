@@ -1,8 +1,10 @@
 #!/usr/bin/python3
 """Class Square"""
 
+
 class Square:
-    def __init__(self, size):
+    """Class square"""
+    def __init__(self, size=0):
         """[summary]
 
         Keyword arguments:
