@@ -2,7 +2,7 @@
 """Class Square"""
 
 class Square:
-    def __init__(self, size=0):
+    def __init__(self, size):
         """[summary]
 
         Keyword arguments:
