@@ -1,15 +1,10 @@
-add_integer.txt
-===============================
- How to Use matrix_divided.py
-===============================
-
-This library is very simple, since it only has one function called
-``matrix_divided()``.
+This library is very simple, beacuse it only has one function called
+"matrix_divided()".
 
 Numbers
 =======
 
-``matrix_divided()`` divides a matrix and returns a new matrix with the result.
+"matrix_divided()" divides a matrix and returns a new matrix with the result.
 
 ::
 
