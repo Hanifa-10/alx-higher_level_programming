@@ -1,19 +1,17 @@
 #!/usr/bin/python3
-"""Square class"""
-
-Rectangle = __import__('9-rectangle').Rectangle
-
-
-class Square(Rectangle):
-    """ Square class that inherits from rectangle
-    Arguments:
-        Rectangle {class} -- Class rectangle
+"""MyInt
+    Returns:
+        return the opposite of == and !=
     """
-    def __init__(self, size):
-        """ Square class that inherits from rectangle
-        Arguments:
-            size {int} -- size of the square
-        """
-        self.integer_validator("size", size)
-        self.__size = size
-        super().__init__(size, size)
+
+
+class MyInt(int):
+    """MyInt
+    Arguments:
+        int return the opposite of == and !=
+    """
+    def __eq__(self, value):
+        return not super().__eq__(value)
+
+    def __ne__(self, value):
+        return not super().__ne__(value)
